@@ -1,4 +1,4 @@
-print("1 : Russian, 2 : Ukrainian, 3 : Belarusian")
+print("1 : Russian, 2 : Ukrainian, 3 : Belarusian, 4 : Exit ")
 b = input("What do you want to conversion : ")
 if b == "1":
     a = input("Please input Cyrillic : ")
@@ -216,5 +216,7 @@ elif b == "3":
     a = a.replace("я", "ya")
 
     print(a)
+elif b == "4":
+    exit()
 else:
     print("Please Choose Option..")
