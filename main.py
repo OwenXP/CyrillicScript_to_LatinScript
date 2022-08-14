@@ -139,7 +139,6 @@ if b == "1":
     a = a.replace("э", "e'")
     a = a.replace("ю", "yu")
     a = a.replace("я", "ya")
-
     print(a)
 elif b == "2":
     a = input("Please input Cyrillic : ")
@@ -213,7 +212,6 @@ elif b == "2":
     a = a.replace("э", "e'")
     a = a.replace("ю", "yu")
     a = a.replace("я", "ya")
-
     print(a)
 elif b == "3":
     a = input("Please input Cyrillic : ")
@@ -285,7 +283,6 @@ elif b == "3":
     a = a.replace("э", "e'")
     a = a.replace("ю", "yu")
     a = a.replace("я", "ya")
-
     print(a)
 else:
     print("Please Choose Option..")
