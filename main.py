@@ -70,8 +70,8 @@ a = a.replace("я", "ya")
 print(a)
 =======
 print("1 : Russian, 2 : Ukrainian, 3 : Belarusian")
-b = input("What do you want to conversion : ")
-if b == "1":
+choose = input("What do you want to conversion : ")
+if choose == "1":
     a = input("Please input Cyrillic : ")
     a = a.replace("А", "A")
     a = a.replace("Б", "B")
@@ -140,7 +140,7 @@ if b == "1":
     a = a.replace("ю", "yu")
     a = a.replace("я", "ya")
     print(a)
-elif b == "2":
+elif choose == "2":
     a = input("Please input Cyrillic : ")
     a = a.replace("А", "A")
     a = a.replace("Б", "B")
@@ -213,7 +213,7 @@ elif b == "2":
     a = a.replace("ю", "yu")
     a = a.replace("я", "ya")
     print(a)
-elif b == "3":
+elif choose == "3":
     a = input("Please input Cyrillic : ")
     a = a.replace("А", "A")
     a = a.replace("Б", "B")
